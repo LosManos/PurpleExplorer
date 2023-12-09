@@ -67,6 +67,14 @@
                         <TextBlock VerticalAlignment="Center">Resubmit back to topic</TextBlock>
                     </StackPanel>
                 </Button>
+                <Button Click="OnClose" IsCancel="True"
+                        DockPanel.Dock="Right" HotKey="Escape"
+                        Classes="topButton">
+                    <StackPanel Orientation="Horizontal">
+                        <i:Icon Value="fa-window-close"/>
+                        <TextBlock VerticalAlignment="Center">Close</TextBlock>
+                    </StackPanel>
+                </Button>
             </DockPanel>
 
             <Grid MinHeight="600" VerticalAlignment="Top" ShowGridLines="True">
