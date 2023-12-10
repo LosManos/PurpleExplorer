@@ -20,7 +20,7 @@ public class MessageDetailsWindow : Window
         AvaloniaXamlLoader.Load(this);
     }
 
-    private void OnClose(object? sender, RoutedEventArgs e)
+    public void OnClose(object? sender, RoutedEventArgs e)
     {
         Close();
     }

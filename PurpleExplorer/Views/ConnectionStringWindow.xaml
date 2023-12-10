@@ -75,8 +75,15 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                 <Button Click="OnClose" IsCancel="True"
                         Width="200"
-                        Content="Close" 
-                        HotKey="Escape">
+                        HotKey="Meta+W">
+                    <StackPanel Orientation="Horizontal" Spacing="5">
+                            <i:Icon Value="fa-times"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock VerticalAlignment="Center">C</TextBlock>
+                            <TextBlock VerticalAlignment="Center" FontWeight="Bold" FontStyle="Italic">w</TextBlock>
+                            <TextBlock VerticalAlignment="Center">ose</TextBlock>
+                        </StackPanel>
+                    </StackPanel>
                 </Button>
             </StackPanel>
         </DockPanel>
