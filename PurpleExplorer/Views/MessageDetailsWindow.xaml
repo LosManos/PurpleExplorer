@@ -68,11 +68,13 @@
                     </StackPanel>
                 </Button>
                 <Button Click="OnClose" IsCancel="True"
-                        DockPanel.Dock="Right" HotKey="Escape"
+                        DockPanel.Dock="Right" HotKey="Meta+W"
                         Classes="topButton">
                     <StackPanel Orientation="Horizontal">
-                        <i:Icon Value="fa-window-close"/>
-                        <TextBlock VerticalAlignment="Center">Close</TextBlock>
+                        <i:Icon Value="fa-times"/>
+                        <TextBlock VerticalAlignment="Center">C</TextBlock>
+                        <TextBlock VerticalAlignment="Center" FontWeight="Bold" FontStyle="Italic">w</TextBlock>
+                        <TextBlock VerticalAlignment="Center">ose</TextBlock>
                     </StackPanel>
                 </Button>
             </DockPanel>
