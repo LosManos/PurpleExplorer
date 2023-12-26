@@ -26,12 +26,15 @@ public class App : Application
         {
             File.Create(appStatePath).Close();
         }
-            
+
+        // Create the AutoSuspendHelper.
         var suspension = new AutoSuspendHelper(ApplicationLifetime);
         RxApp.SuspensionHost.CreateNewAppState = () => new AppState();
         RxApp.SuspensionHost.SetupDefaultSuspendResume(new NewtonsoftJsonSuspensionDriver(appStatePath));
         suspension.OnFrameworkInitializationCompleted();
-        var state = RxApp.SuspensionHost.GetAppState<AppState>() ?? new AppState();
+
+        // Load the saved view model state.
+        var state = RxApp.SuspensionHost.GetAppState<AppState>(); // ?? new AppState();
 
         Locator.CurrentMutable.RegisterLazySingleton(() => state, typeof(IAppState));
         Locator.CurrentMutable.RegisterLazySingleton(() => new LoggingService(), typeof(ILoggingService));

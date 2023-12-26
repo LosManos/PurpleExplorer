@@ -6,6 +6,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{21D74071-6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurpleExplorerTest", "Test\PurpleExplorerTest\PurpleExplorerTest.csproj", "{D51C1CFE-BD0E-44B8-A779-D9975CCEC173}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration", "Configuration\Configuration.csproj", "{309E67AD-06A8-4130-8163-469FCD268788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationTest", "Test\ConfigurationTest\ConfigurationTest.csproj", "{57FA3B04-1537-4A94-AE49-86616BF7D8D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{D51C1CFE-BD0E-44B8-A779-D9975CCEC173}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D51C1CFE-BD0E-44B8-A779-D9975CCEC173}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D51C1CFE-BD0E-44B8-A779-D9975CCEC173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309E67AD-06A8-4130-8163-469FCD268788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309E67AD-06A8-4130-8163-469FCD268788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309E67AD-06A8-4130-8163-469FCD268788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309E67AD-06A8-4130-8163-469FCD268788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FA3B04-1537-4A94-AE49-86616BF7D8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FA3B04-1537-4A94-AE49-86616BF7D8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FA3B04-1537-4A94-AE49-86616BF7D8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FA3B04-1537-4A94-AE49-86616BF7D8D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D51C1CFE-BD0E-44B8-A779-D9975CCEC173} = {21D74071-61C3-4DC5-B478-4DDEFD01AFE5}
