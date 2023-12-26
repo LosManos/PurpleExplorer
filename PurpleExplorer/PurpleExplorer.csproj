@@ -35,4 +35,7 @@
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Configuration\Configuration.csproj" />
+    </ItemGroup>
 </Project>
